@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+    Navigation Bar
+</title>
+<style>
+    .navbar{
+        background-color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 4px;
+    }
+    .navbar{
+        overflow: auto;
+    }
+    .navbar ul li{
+        list-style: none;
+        float: left;
+        margin: 9px 8px;
+        padding: 3px 5px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color:white ;
+        font-size: 18px;
+        padding: 5px;
+        margin: 7px;
+    }
+    .navbar ul li a:hover{
+        color: aqua;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="C:\Users\DELL\OneDrive\Documents2\Rebekahl\HTML Asgnmnt\Mini Project\home.html">Home</a>
+                </li>
+                <li>
+                    <a href="C:\Users\DELL\OneDrive\Documents2\Rebekahl\HTML Asgnmnt\Mini Project\foods.html">Foods</a>
+                </li>
+                <li>
+                    <a href="C:\Users\DELL\OneDrive\Documents2\Rebekahl\HTML Asgnmnt\Mini Project\boating.html">Facilities</a>
+                </li>
+                <li>
+                    <a href="C:\Users\DELL\OneDrive\Documents2\Rebekahl\HTML Asgnmnt\Mini Project\contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="C:\Users\DELL\OneDrive\Documents2\Rebekahl\HTML Asgnmnt\Mini Project\delivery.html">Online Deliver</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+<html>
+    <h1>For Online Delivery</h1>
+    <h2>Personal Information</h2>
+    <table>
+        <tr>
+            <td>Full Name:</td> <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Phone Number:</td> <td><input type="number"></td>
+        </tr>
+
+        <tr>
+            <td>Email Address:</td> <td><input type="text"></td>
+        </tr>
+
+    </table>
+
+    <h2>Delivery Information</h2>
+    <table>
+        <tr>
+            <td>Delivery Address:</td> <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>City:</td> <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Postal Code:</td> <td><input type="number"></td>
+        </tr>
+    </table>
+
+    <h2>Order Details</h2>
+    <tr>
+        <td>Select your Dish:</td>
+    </tr>
+    <td>
+        <select>
+            <option>Non Vegeterian
+            <option>Vegeterian</option>
+            <option>Juice Items</option>
+            <option>Ice Creams</option>
+            </option>
+        </select>
+    </td>
+
+    <h2>Payment Method</h2>
+    <table>
+        Payment types: 
+        <td>
+            <input type="radio" name="gender">Credit card 
+            <input type="radio" name="gender">Debit Card
+            <input type="radio" name="gender">PayPal
+            <input type="radio" name="gender"> Cash On Delivery
+        </td>
+    </table>
+</html>
